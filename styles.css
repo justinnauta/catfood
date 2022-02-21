@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+hr {
+  width: 75%;
+  margin: 0 auto 30px auto;
+}
+
+#topInputs,
+#multiMealInputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+#multiMealInputs {
+  padding-top: 30px;
+}
+
+#multiMealSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 30px 0 10px 0;
+}
+
+#inputSection {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 100%;
+  align-items: center;
+}
+
+label {
+  display: block;
+  padding-bottom: 3px;
+}
+
+input {
+  height: 30px;
+  font-size: 20px;
+}
+
+select {
+  height: 20px;
+  font-size: 15px;
+}
+
+#treatsLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#total {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 1.5em;
+}
+
+#meal2Total {
+  font-size: 1.5em;
+}
+
+#treatsTotal {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.2em;
+}
